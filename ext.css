@@ -1,0 +1,43 @@
+label{
+    /* color: yellow !important; */
+}
+#password{
+    color: darkslategrey;
+}
+#checkbox{
+    color: blueviolet !important;
+}
+.redcolor{
+    color: red;
+    text-decoration: line-through;
+    text-decoration-color: burlywood;
+    text-decoration-style: dashed;
+}
+.fontType{
+    font-size: 20px;
+}.div1{
+    background: tomato;
+    margin: 13px 10px 13px 31px;
+}
+.border{
+    border: red;
+    border-style: dashed;
+    /* border-radius: 10px; */
+    border-width: 3px;
+    padding: 11px;
+    border-radius: 19px;
+    border-style: double;
+}
+.bgimage{
+    border: black;
+    border-style: dashed;
+    border-radius: 13px;
+    padding: 10px;
+    height: 500px;
+    width: 600px;
+    background-image: url(pp.jpg);
+    /* background-image: linear-gradient(
+        45deg, black, transparent); */
+    background-repeat: no-repeat;
+    background-size: cover;  
+}

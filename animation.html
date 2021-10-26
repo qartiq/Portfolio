@@ -1,0 +1,49 @@
+<head>
+    <style>
+        @keyframes style1{
+            from{background-color: chartreuse;}
+            to{background-color: chocolate;}
+        }
+
+        @keyframes style2{
+            from{
+                margin-left: 100%;
+                width: 300%;
+            }
+            to{
+                margin-left: 0%;
+                width: 100px;
+            }
+        }
+
+        #animation{
+            height: 400px;
+            width: 400px;
+            background-color: chartreuse;
+            animation-name: style1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+
+        #animation2{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            background-color: darkcyan;
+            animation-name: style2;
+            animation-duration: 4s;
+            animation-iteration-count: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div style=" " id="animation">
+        <p>Animation text</p>
+    </div>
+    
+    <div id="animation2">
+        <p>Animation2</p>
+    </div>
+</body>
