@@ -16,6 +16,15 @@
             }
         }
 
+        @keyframes style3{
+            /* % is indicating time duration */
+            0%{background-color: cadetblue; left: 0%;top: 0%;}  
+            25%{background-color: chartreuse;left: 200px;top: 0%;}
+            50%{background-color: coral;left: 200px;top: 200px;}
+            75%{background-color: crimson;left: 0%;top: 20w0px;}
+            100%{background-color: darkcyan;left: 0%;top: 0%;}
+        }
+
         #animation{
             height: 400px;
             width: 400px;
@@ -35,6 +44,16 @@
             animation-duration: 4s;
             animation-iteration-count: 2;
         }
+
+        #animation3{
+            height: 100px;
+            width: 100px;
+            animation-name: style3;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            /* to make  left right top bottom animation work we give position relative */
+            position: relative;
+        }
     </style>
 </head>
 
@@ -45,5 +64,9 @@
     
     <div id="animation2">
         <p>Animation2</p>
+    </div>
+
+    <div id="animation3">
+        <p>% timing</p>
     </div>
 </body>
