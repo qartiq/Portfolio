@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+    background-image: url(main\ bg\ image.jpg);
+    color: blanchedalmond;
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 10px;
+    align-content: center;
+    align-items: center;
+}
+.card{
+    background-image: linear-gradient(110deg, black, transparent);
+    border: transparent;
+    height: 200px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+
+}
+.card-image{
+    margin: 25px;
+}
+.card-content{
+    margin-top: 79px;
+}
