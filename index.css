@@ -3,7 +3,7 @@ body{
     background-image: url(main\ bg\ image.jpg);
     color: blanchedalmond;
     background-size: cover;
-    text-align: center;
+    /* text-align: center; */
     font-family: sans-serif;
 }
 .cards{
@@ -20,6 +20,10 @@ body{
     text-align: center;
     display: grid;
     grid-template-columns: 200px 1fr ;
+    animation-name: style1;
+    animation-duration: 3s;
+    border: transparent;
+    border-radius: 7px;
 
 }
 .card-image{
@@ -27,4 +31,38 @@ body{
 }
 .card-content{
     margin-top: 79px;
+    font: smaller;
+}
+
+.header{
+    height: fit-content;
+    width: fit-content;
+    background-image: linear-gradient(110deg, transparent, #016064);
+    animation-name: style2;
+    animation-duration: 3s;
+    /* animation-delay: 3s; */
+    border: transparent;
+    border-radius: 7px;
+}
+
+@keyframes style1{
+    from{
+        height: 300%;
+        
+    }
+    to{
+        height: 200px;
+        ;
+    }
+}
+
+@keyframes style2{
+    from{
+        width: 300%;
+        margin-left: 100%;
+    }
+    to{
+        width: 317px;
+        margin-left: 30px
+    }
 }
