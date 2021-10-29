@@ -1,20 +1,39 @@
 body{
-    margin: 0%;
-    background-image: url(main\ bg\ image.jpg);
+    margin: 20px;
+    background-image: linear-gradient(110deg, #bdc3c7, #2c3e50);
     color: blanchedalmond;
     background-size: cover;
     /* text-align: center; */
-    font-family: sans-serif;
+    font-family: monospace;
+    
+}
+img{
+    border: white;
+    border-radius: 7px;
+}
+p{
+    color: #bdc3c7;
+}
+
+.header{
+    height: fit-content;
+    width: fit-content;
+    background-image: linear-gradient(110deg, transparent, #2c3e50);
+    animation-name: header-animation;
+    animation-duration: 3s;
+    /* animation-delay: 3s; */
+    border: transparent;
+    border-radius: 7px;
 }
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-    grid-gap: 10px;
+    grid-gap: 20px;
     align-content: center;
     align-items: center;
 }
 .card{
-    background-image: linear-gradient(110deg, black, transparent);
+    background-image: linear-gradient(110deg, #2c3e50, transparent);
     border: transparent;
     height: 200px;
     text-align: center;
@@ -26,24 +45,20 @@ body{
     border-radius: 7px;
 
 }
+
 .card-image{
     margin: 25px;
+    height: 146px;
+    width: 200px;
+    
 }
 .card-content{
-    margin-top: 79px;
-    font: smaller;
+    /* margin-top: 79px; */
+    /* font: smaller; */
+    margin: 52px 20px 20px 25px;
 }
 
-.header{
-    height: fit-content;
-    width: fit-content;
-    background-image: linear-gradient(110deg, transparent, #016064);
-    animation-name: style2;
-    animation-duration: 3s;
-    /* animation-delay: 3s; */
-    border: transparent;
-    border-radius: 7px;
-}
+
 
 @keyframes style1{
     from{
@@ -52,17 +67,16 @@ body{
     }
     to{
         height: 200px;
-        ;
     }
 }
 
-@keyframes style2{
+@keyframes header-animation{
     from{
         width: 300%;
         margin-left: 100%;
     }
     to{
-        width: 317px;
+        width: 461.02px;
         margin-left: 30px
     }
 }
