@@ -1,10 +1,11 @@
 body{
     margin: 20px;
-    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg), linear-gradient(110deg, #bdc3c7, #2c3e50);
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg), linear-gradient(90deg, #bdc3c7, #2c3e50);
     color: blanchedalmond;
     background-size: cover;
     /* text-align: center; */
-    font-family: monospace;
+    /* font-family: monospace; */
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     
 }
 img{
@@ -16,15 +17,31 @@ p{
 }
 
 .header{
-    height: fit-content;
+    height: auto;
     width: fit-content;
     background-image: linear-gradient(110deg, transparent, #2c3e50);
     animation-name: header-animation;
     animation-duration: 3s;
-    /* animation-delay: 3s; */
     border: transparent;
     border-radius: 7px;
+    text-align: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    
 }
+/* .header h2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+} */
+/* .header h2::before , h2::after{
+    background-color: aqua;
+    height: 23px;
+    width: 200px;
+    content: '';
+    display: block;
+} */
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
@@ -33,7 +50,7 @@ p{
     align-items: center;
 }
 .card{
-    background-image: linear-gradient(110deg, #2c3e50, transparent);
+    background-image: linear-gradient(110deg, transparent, #2c3e50);
     border: transparent;
     height: 200px;
     text-align: center;
@@ -73,10 +90,12 @@ p{
 @keyframes header-animation{
     from{
         width: 300%;
+        /* height: 64px; */
         margin-left: 100%;
     }
     to{
-        width: 461.02px;
-        margin-left: 30px
+        width: 442.97px;
+        /* height: 64px; */
+        margin-left: 380px;
     }
 }
