@@ -1,6 +1,6 @@
 body{
     margin: 20px;
-    background-image: linear-gradient(110deg, #bdc3c7, #2c3e50);
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg), linear-gradient(110deg, #bdc3c7, #2c3e50);
     color: blanchedalmond;
     background-size: cover;
     /* text-align: center; */
