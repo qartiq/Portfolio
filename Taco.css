@@ -3,13 +3,18 @@ body{
     background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg),linear-gradient(110deg,#f93d66, #6d47d9);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
-header{
-    /* margin: 4em 1em 2em 1em; */
+.header{
+    
 }
 #section-header ul{
     list-style: none;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 0%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
     font-weight: 900;
     font-size: 20px;
 }
