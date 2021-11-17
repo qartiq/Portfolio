@@ -96,22 +96,10 @@ h2{
     content: "";
     display: block;
 } */
-/* .header h2{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-} */
-/* .header h2::before , h2::after{
-    background-color: aqua;
-    height: 23px;
-    width: 200px;
-    content: '';
-    display: block;
-} */
+
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     grid-gap: 20px;
     align-content: center;
     align-items: center;
@@ -125,7 +113,7 @@ h2{
 .card{
     background-image: linear-gradient(110deg, transparent, #2c3e50);
     border: transparent;
-    height: 200px;
+    height: auto;
     text-align: center;
     display: grid;
     grid-template-columns: 200px 1fr ;
@@ -139,7 +127,7 @@ h2{
 .card-image{
     margin: 25px;
     height: 146px;
-    width: 200px;
+    width: auto;
     
 }
 .card-content{
