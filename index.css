@@ -156,6 +156,7 @@ button:hover{
     grid-gap: 20px;
     align-content: center;
     align-items: center;
+    
 }
 .cards a:hover{
     opacity: 0.7;
@@ -240,6 +241,12 @@ button:hover{
     padding: 30px;
 
 }
+.LastDiv{
+    background-color: #bdc3c7;
+    height: 18px;
+    text-align: center;
+    padding: 11px;
+}
 
 
 
@@ -277,8 +284,10 @@ button:hover{
 
 
 
-@media only screen and (max-width: 600px) {
 
 
-    
+@media only screen and (max-width:){
+    .cards{
+        display: block;
+    }
 }
