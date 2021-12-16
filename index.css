@@ -87,10 +87,11 @@ button:hover{
 }
 .navbar-right{
     float: right;
+    margin-right: 34px;
 }
 .navbar-right a{
     font-size: 23px;
-    margin-right: 34px;
+    
 }
 /* .search{
 
