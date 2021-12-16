@@ -287,7 +287,5 @@ button:hover{
 
 
 @media only screen and (max-width:){
-    .cards{
-        display: block;
-    }
+    
 }
