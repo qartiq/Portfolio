@@ -56,6 +56,7 @@ button:hover{
 .navbar{
     position: sticky;
     top: 0px;
+    /* height: 10%; */
     /* display: flex;
     justify-content: space-between; */
     align-items: center;
@@ -89,6 +90,7 @@ button:hover{
 }
 .navbar-right a{
     font-size: 23px;
+    margin-right: 34px;
 }
 /* .search{
 
@@ -271,3 +273,11 @@ button:hover{
         margin-left: 31%;
     }
 } */
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    
+}
