@@ -12,8 +12,9 @@ body{
     /* font-family: 'Zen Kaku Gothic Antique', sans-serif; */
     
     
+    
 }
-li,a,button,p,.logo,h2{
+li,a,button,p,.logo,h1,h2,h3,h4,h5,h6{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 
@@ -27,9 +28,9 @@ img{
     border: white;
     border-radius: 39px;
 }
-p{
+/* p{
     color: rgb(194, 194, 194);
-}
+} */
 h2{
     color:rgb(223, 223, 223);
 }
@@ -54,14 +55,13 @@ button:hover{
     display: inline-block;
 }
 .navbar{
-    position: sticky;
-    top: 0px;
+    /* position: sticky;
+    top: 0px; */
     /* height: 10%; */
     /* display: flex;
     justify-content: space-between; */
     align-items: center;
     background-color: #2c3e50;
-    border-radius: 0;
     padding: 1px;
     /* border-bottom: 0.5px solid white; */
     
@@ -148,6 +148,15 @@ button:hover{
     content: "";
     display: block;
 } */
+#intro{
+    color: white;
+    background-color: #2c3e50;
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem ;
+    padding: 4rem;
+    
+}
 
 .cards{
     margin: 20px;
@@ -157,6 +166,9 @@ button:hover{
     align-content: center;
     align-items: center;
     
+}
+.cards p{
+    color: rgb(194, 194, 194);
 }
 .cards a:hover{
     opacity: 0.7;
@@ -196,20 +208,23 @@ button:hover{
 .thankyou h2{
     display: grid;
     grid-gap: 20px;
-    height: 3444px;
+    color: black;
+    border: 1px solid #2c3e50;
+    border-radius: 14px;
+    /* height: 3444px; */
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
 }
 .thankyou h2::before{
-    background: linear-gradient(90deg, #2c3e50,transparent);
-    height: 10px;
+    background: linear-gradient(90deg,transparent, #2c3e50);
+    height: 20px;
     border-radius: 5px;
     content: "";
     display: block;
 }
 .thankyou h2::after{
-    background: linear-gradient(90deg, transparent,#2c3e50);
-    height: 10px;
+    background: linear-gradient(90deg, #2c3e50,transparent);
+    height: 20px;
     border-radius: 5px;
     content: "";
     display: block;
@@ -247,10 +262,16 @@ button:hover{
     text-align: center;
     padding: 11px;
 }
+.LastDiv:hover{
+    cursor: default;
+}
 
 
-
-
+@media only screen and(max-width: 600px){
+    #navbar-right{
+        display: none;
+    }
+}
 
 
 
