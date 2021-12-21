@@ -241,7 +241,8 @@ button:hover{
 .footer{
     height: 200px;
     background: #2c3e50;
-    
+    position: sticky;
+    bottom: 0px;
 }
 .footer li{
     list-style: none;
