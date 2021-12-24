@@ -281,10 +281,11 @@ button:hover{
     .card{
         display: block;
     }
+    /* .cards{
+        display: block;
+    } */
 
-    .navbar ul{
-        display: grid;
-    }
+    
 }
 
 
@@ -295,15 +296,15 @@ button:hover{
 
 
 
-@keyframes style1{
+/* @keyframes style1{
     from{
         height: 300%;
         
     }
     to{
-        height: 448px;
+        height: 200px;
     }
-}
+} */
 
 /* @keyframes header-animation{
     from{
