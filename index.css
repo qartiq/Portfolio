@@ -192,6 +192,9 @@ button:hover{
     border-radius: 62px;
 
 }
+/* .card:hover{
+    display: block;
+} */
 
 .card-image{
     margin: 25px;
@@ -274,12 +277,15 @@ button:hover{
 }
 
 
-@media only screen and(max-width: 600px){
-    #navbar-right{
-        display: none;
+@media only screen and (orientation: portrait) {
+    .card{
+        display: block;
+    }
+
+    .navbar ul{
+        display: grid;
     }
 }
-
 
 
 
@@ -295,7 +301,7 @@ button:hover{
         
     }
     to{
-        height: 200px;
+        height: 448px;
     }
 }
 
