@@ -278,9 +278,9 @@ button:hover{
 
 
 @media only screen and (orientation: portrait) {
-    /* .card{
+    .card{
         display: block;
-    } */
+    }
     /* .cards{
         display: block;
     } */
