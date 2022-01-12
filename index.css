@@ -43,6 +43,7 @@ button{
     border: 2px solid #bdc3c7;
     padding: 4px;
     box-shadow: 0px 0px 0px 3px #bdc3c7;
+    transition: all .5s  ;
 }
 button:hover{
     border: 2px solid white;
@@ -192,6 +193,7 @@ button:hover{
     /* border: transparent; */
     border: 2px solid #2c3e50;
     border-radius: 62px;
+    transition: background .8s ;
 
 }
 /* .card:hover{
@@ -208,6 +210,9 @@ button:hover{
     /* margin-top: 79px; */
     /* font: smaller; */
     margin: 52px 20px 20px 25px;
+}
+.card:hover{
+    background: #2c3e50;
 }
 
 
@@ -259,6 +264,7 @@ button:hover{
 }
 .footer a{
     text-decoration: none;
+    
 }
 .footer a:hover{
     text-decoration: underline;
